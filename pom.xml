@@ -5,7 +5,7 @@
 
     <groupId>com.github.librepdf</groupId>
     <artifactId>openpdf-parent</artifactId>
-    <version>1.3.25-SNAPSHOT</version>
+    <version>1.3.25.trifork-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <!-- please run mvn tidy:pom once in a while -->
@@ -45,11 +45,17 @@
         <developerConnection>scm:git:https://github.com/LibrePDF/OpenPDF</developerConnection>
     </scm>
     <!-- Distribution config from http://central.sonatype.org/pages/apache-maven.html#distribution-management-and-authentication -->
-    <distributionManagement>
+     <distributionManagement>
         <snapshotRepository>
-            <id>ossrh</id>
-            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+            <id>trifork.snapshots</id>
+            <name>Trifork internal snapshot Nexus</name>
+            <url>http://ci.fmk.netic.dk/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
+        <repository>
+            <id>trifork.releases</id>
+            <name>Trifork internal releases Nexus</name>
+            <url>http://ci.fmk.netic.dk/nexus/content/repositories/releases</url>
+        </repository>
     </distributionManagement>
 
     <properties>
