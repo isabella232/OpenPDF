@@ -1485,6 +1485,17 @@ public class ColumnText {
                     if (table.isExtendLastRow(newPageFollows)) {
                         last.setMaxHeights(rowHeight);
                     }
+                    
+                    if (newPageFollows) {
+                        PdfPTableEvent tableEvent = table.getTableEvent();
+                        
+                   
+                        
+                        if (tableEvent instanceof PdfPTableEventAfterSplit) {
+                            PdfPRow row = table.getRow(k);
+                            ((PdfPTableEventAfterSplit) tableEvent).afterSplitTable(table, row, k);
+                        }
+                    }
                 }
                 else if (table.isExtendLastRow() && minY > PdfPRow.BOTTOM_LIMIT)
                     yTemp = minY;
