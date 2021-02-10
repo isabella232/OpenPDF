@@ -3,9 +3,9 @@
     xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.librepdf</groupId>
+    <groupId>com.trifork</groupId>
     <artifactId>openpdf-parent</artifactId>
-    <version>1.3.25.trifork-SNAPSHOT</version>
+    <version>1.3.25</version>
     <packaging>pom</packaging>
 
     <!-- please run mvn tidy:pom once in a while -->
