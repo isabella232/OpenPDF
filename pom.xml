@@ -335,7 +335,7 @@
                 <extensions>true</extensions>
                 <configuration>
                     <serverId>trifork.releases</serverId>
-                    <nexusUrl>https://ci.fmk.netic.dk/nexus/content/repositories/releases</nexusUrl>
+                    <nexusUrl>https://ci.fmk.netic.dk/nexus</nexusUrl>
                     <autoReleaseAfterClose>false</autoReleaseAfterClose>
                 </configuration>
             </plugin>
