@@ -49,17 +49,17 @@
         <snapshotRepository>
             <id>trifork.snapshots</id>
             <name>Trifork internal snapshot Nexus</name>
-            <url>http://ci.fmk.netic.dk/nexus/content/repositories/snapshots/</url>
+            <url>https://ci.fmk.netic.dk/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
         <repository>
             <id>trifork.releases</id>
             <name>Trifork internal releases Nexus</name>
-            <url>http://ci.fmk.netic.dk/nexus/content/repositories/releases</url>
+            <url>https://ci.fmk.netic.dk/nexus/content/repositories/releases</url>
         </repository>
     </distributionManagement>
 
     <properties>
-        <java-module-name>com.github.librepdf.openpdf.parent</java-module-name>
+        <java-module-name>com.trifork.openpdf.parent</java-module-name>
         <java.version>1.8</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
