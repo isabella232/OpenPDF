@@ -11,7 +11,7 @@
     <artifactId>openpdf</artifactId>
 
     <properties>
-        <java-module-name>com.github.librepdf.openpdf</java-module-name>
+        <java-module-name>com.trifork.openpdf</java-module-name>
     </properties>
 
     <dependencies>

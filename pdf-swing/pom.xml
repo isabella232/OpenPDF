@@ -11,12 +11,12 @@
     <artifactId>pdf-swing</artifactId>
 
     <properties>
-        <java-module-name>com.github.librepdf.pdfSwing</java-module-name>
+        <java-module-name>com.trifork.pdfSwing</java-module-name>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>com.github.librepdf</groupId>
+            <groupId>com.trifork</groupId>
             <artifactId>openpdf</artifactId>
             <version>${project.version}</version>
         </dependency>

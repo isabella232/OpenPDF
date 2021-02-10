@@ -1,5 +1,5 @@
-module com.github.librepdf.pdfToolbox {
-    requires com.github.librepdf.openpdf;
+module com.trifork.pdfToolbox {
+    requires com.trifork.openpdf;
     requires org.jfree.jfreechart;
     requires jcommon;
 

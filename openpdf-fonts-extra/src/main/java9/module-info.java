@@ -1,5 +1,5 @@
-module com.github.librepdf.pdfFontsExtra {
-    requires com.github.librepdf.openpdf;
+module com.trifork.pdfFontsExtra {
+    requires com.trifork.openpdf;
 
     exports org.librepdf.openpdf.fonts;
 }

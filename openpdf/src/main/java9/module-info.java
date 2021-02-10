@@ -1,4 +1,4 @@
-module com.github.librepdf.openpdf {
+module com.trifork.openpdf {
     requires static org.bouncycastle.pkix;
     requires static org.bouncycastle.provider;
     requires static fop;

@@ -11,12 +11,12 @@
   <artifactId>openpdf-fonts-extra</artifactId>
 
   <properties>
-    <java-module-name>com.github.librepdf.pdfFontsExtra</java-module-name>
+    <java-module-name>com.trifork.pdfFontsExtra</java-module-name>
   </properties>
 
   <dependencies>
     <dependency>
-      <groupId>com.github.librepdf</groupId>
+      <groupId>com.trifork</groupId>
       <artifactId>openpdf</artifactId>
       <version>${project.version}</version>
     </dependency>

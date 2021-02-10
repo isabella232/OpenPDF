@@ -1,5 +1,5 @@
-module com.github.librepdf.pdfSwing {
-    requires com.github.librepdf.openpdf;
+module com.trifork.pdfSwing {
+    requires com.trifork.openpdf;
     requires dom4j;
     requires pdf.renderer;
 
